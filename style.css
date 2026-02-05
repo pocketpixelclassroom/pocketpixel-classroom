@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(135deg, #eaf6f6, #fdf1f7);
+    background: linear-gradient(135deg, #eef6f3, #fdeff4);
     color: #333;
 }
 
@@ -16,25 +16,25 @@ body {
     left: 0;
     height: 6px;
     width: 100%;
-    background: #eee;
-    z-index: 999;
+    background: #e0e0e0;
+    z-index: 1000;
 }
+
 .progress-bar {
     height: 100%;
     width: 0%;
-    background: linear-gradient(90deg, #6bcfbd, #f6a6c1);
+    background: linear-gradient(90deg, #7bdcb5, #f78fb3);
     transition: width 0.2s ease;
 }
 
 .container {
     max-width: 720px;
     margin: auto;
-    padding: 30px 20px 60px;
+    padding: 40px 20px 60px;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
-    margin-top: 30px;
 }
 
 .subtitle {
@@ -44,13 +44,12 @@ h1 {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(6px);
-    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 18px;
     padding: 20px;
     margin: 20px 0;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-    animation: fadeUp 0.6s ease;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+    animation: fadeUp 0.5s ease;
 }
 
 @keyframes fadeUp {
@@ -64,16 +63,11 @@ h1 {
     }
 }
 
-.card h3 {
-    margin-top: 0;
-}
-
 .reward {
     margin-top: 40px;
-    padding: 18px;
+    padding: 20px;
     text-align: center;
-    border-radius: 18px;
-    background: linear-gradient(135deg, #c1f0dc, #ffe6f0);
+    border-radius: 20px;
+    background: linear-gradient(135deg, #c7f5e7, #ffe1ec);
     font-weight: bold;
-    font-size: 1.05rem;
 }
